@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinPool<T> where T : MonoBehaviour
+public class MainPooler<T> where T : MonoBehaviour
 {
     public T prefab { get; }
     public bool autoExpand { get; set; }
@@ -10,7 +10,7 @@ public class CoinPool<T> where T : MonoBehaviour
 
     private List<T> pool;
 
-    public CoinPool(T prefab, int count)
+    public MainPooler(T prefab, int count)
     {
         this.prefab = prefab;
         this.container = null;
@@ -18,7 +18,7 @@ public class CoinPool<T> where T : MonoBehaviour
         this.CreatePool(count);
     }
 
-    public CoinPool(T preafab, int count, Transform container)
+    public MainPooler(T preafab, int count, Transform container)
     {
         this.prefab = preafab;
         this.container = container;
