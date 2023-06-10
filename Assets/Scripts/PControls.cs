@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class PControls : MonoBehaviour
@@ -29,23 +28,5 @@ public class PControls : MonoBehaviour
     private void Jump()
     {
         _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
-    }
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public PlayerController GetPC()
-    {
-        return _playerController;
     }
 }
