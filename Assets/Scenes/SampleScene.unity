@@ -152,12 +152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 943a0b6ddd7c4104785d53f2b28c6b58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnPointTransform: {fileID: 1496870051}
-  _coinsPrefab: {fileID: -8009601701137435312, guid: d2893582108602f42bf43d1d6dcea948, type: 3}
+  _coinsPrefab: {fileID: 2794061269333831130, guid: 0d1f080fd434f8248adf761173193139, type: 3}
   _obstaclePrefab: {fileID: 7644050818734622766, guid: b47fd5ca23de5c440b00d2ca2f7973a7, type: 3}
   _poolCount: 4
   _autoExpand: 1
   _papPool: {fileID: 400725840}
+  _gameManager: {fileID: 1600478432}
 --- !u!4 &384103329
 Transform:
   m_ObjectHideFlags: 0
@@ -197,7 +197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400725839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: 0, z: 0}
+  m_LocalPosition: {x: 15, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -240,7 +240,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.19215688, g: 0.4745098, b: 0.2680611, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -385,7 +385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.27, y: -0.96380085}
+  m_AnchoredPosition: {x: -7.17, y: -3.64}
   m_SizeDelta: {x: 1, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &866292472
@@ -487,7 +487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496870050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: 4, z: 0}
+  m_LocalPosition: {x: 7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

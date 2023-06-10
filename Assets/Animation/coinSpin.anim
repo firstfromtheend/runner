@@ -8,7 +8,7 @@ AnimationClip:
   m_PrefabAsset: {fileID: 0}
   m_Name: coinSpin
   serializedVersion: 7
-  m_Legacy: 0
+  m_Legacy: 1
   m_Compressed: 0
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
@@ -28,7 +28,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 1}
       - serializedVersion: 3
         time: 1
-        value: {x: 0, y: 0, z: 490.81796}
+        value: {x: 0, y: 0, z: 360}
         inSlope: {x: 0, y: 0, z: 481.0616}
         outSlope: {x: 0, y: 0, z: 481.0616}
         tangentMode: 0
@@ -44,7 +44,7 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 24
-  m_WrapMode: 0
+  m_WrapMode: 2
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -147,7 +147,7 @@ AnimationClip:
         outWeight: 1
       - serializedVersion: 3
         time: 1
-        value: 490.81796
+        value: 360
         inSlope: 481.0616
         outSlope: 481.0616
         tangentMode: 0
