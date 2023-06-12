@@ -6,6 +6,7 @@ public class CoinMover : MonoBehaviour
     [SerializeField] private float _moveSpeed = 3f;
     private ParticleSystem _particleSystem;
     private SpriteRenderer _spriteReneder;
+    private AudioSource _audioSource;
 
     private void OnEnable()
     {
@@ -17,6 +18,7 @@ public class CoinMover : MonoBehaviour
     {
         _particleSystem = GetComponentInChildren<ParticleSystem>();
         _spriteReneder = GetComponentInChildren<SpriteRenderer>();
+        _audioSource = GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -35,7 +37,7 @@ public class CoinMover : MonoBehaviour
     IEnumerator CoinCollected()
     {
         _particleSystem.Play();
-
+        _audioSource.Play();
         yield return new WaitForSeconds(1);
         this.gameObject.SetActive(false);
     }

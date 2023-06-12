@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6804219232220114925}
   - component: {fileID: 3636899940479915166}
-  - component: {fileID: 4885180980407371883}
-  - component: {fileID: 11738867378407708}
   - component: {fileID: 5842260731318175914}
   - component: {fileID: 4629640853164296586}
   - component: {fileID: 5161307791511597432}
@@ -35,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3636899940479915166
 SpriteRenderer:
@@ -89,111 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4885180980407371883
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7669552446124532430}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!60 &11738867378407708
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7669552446124532430}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.85333335, y: 0.85333335}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.26000002, y: -0.28333333}
-      - {x: 0.3, y: -0.24333334}
-      - {x: 0.32666668, y: -0.20666668}
-      - {x: 0.35333335, y: -0.14333333}
-      - {x: 0.35666668, y: -0.123333335}
-      - {x: 0.35666668, y: -0.02}
-      - {x: 0.33, y: 0.06666667}
-      - {x: 0.30666667, y: 0.11666667}
-      - {x: 0.26333335, y: 0.18666667}
-      - {x: 0.19333334, y: 0.26000002}
-      - {x: 0.120000005, y: 0.31333333}
-      - {x: 0.03666667, y: 0.35}
-      - {x: 0.01, y: 0.35666668}
-      - {x: -0.033333335, y: 0.36}
-      - {x: -0.10404166, y: 0.35737497}
-      - {x: -0.15, y: 0.35}
-      - {x: -0.20333333, y: 0.32}
-      - {x: -0.31, y: 0.21000001}
-      - {x: -0.33333334, y: 0.15666667}
-      - {x: -0.33666667, y: 0.123333335}
-      - {x: -0.34, y: 0.086666666}
-      - {x: -0.34, y: 0.030000001}
-      - {x: -0.33, y: -0.02}
-      - {x: -0.29333335, y: -0.10333334}
-      - {x: -0.25666666, y: -0.16333334}
-      - {x: -0.23666668, y: -0.19}
-      - {x: -0.16666667, y: -0.26000002}
-      - {x: -0.083333336, y: -0.32}
-      - {x: -0.01, y: -0.35}
-      - {x: 0.06604186, y: -0.36454174}
-      - {x: 0.12666667, y: -0.35666668}
-      - {x: 0.18, y: -0.34333333}
-      - {x: 0.21666667, y: -0.32}
-  m_UseDelaunayMesh: 0
 --- !u!198 &5842260731318175914
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -764,7 +657,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    gravitySource: 0
+    gravitySource: 1
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -4974,13 +4867,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
+  m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
-  m_ApplyActiveColorSpace: 1
+  m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_VertexStreams: 00010304
+  m_VertexStreams: 000304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
