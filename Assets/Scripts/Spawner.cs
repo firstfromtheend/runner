@@ -31,7 +31,7 @@ public class Spawner : MonoBehaviour
     {
 
         var rCOunter = Random.Range(0f, 1f);
-        if (rCOunter > 0.9f)
+        if (rCOunter > 0.3f)
         {
             var trian = _obstaclesPool.GetFreeElement();
             var rY = Random.Range(-4f, 4f);

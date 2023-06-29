@@ -34,7 +34,7 @@ public class CoinMover : MonoBehaviour
         }
     }
 
-    IEnumerator CoinCollected()
+    private IEnumerator CoinCollected()
     {
         _particleSystem.Play();
         _audioSource.Play();

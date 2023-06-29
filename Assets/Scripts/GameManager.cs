@@ -15,5 +15,4 @@ public class GameManager : MonoBehaviour
         else instanceGM = this;
         DontDestroyOnLoad(gameObject);
     }
-
 }
